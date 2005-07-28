@@ -4,7 +4,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.03';
 
 sub new(){
 	my $proto = shift;
@@ -25,7 +25,6 @@ sub new(){
 
 1;
 __END__
-# Below is stub documentation for your module. You'd better edit it!
 
 =head1 NAME
 
@@ -41,21 +40,13 @@ DCOP - Perl extension to speak to the dcop server via system's DCOP client.
 This class is meant to be a base constructor for higher level of abstraction
 on dcop clients.
 
-=head2 EXPORT
-
-None by default.
-
-=head1 SEE ALSO
-
-DCOP::Amarok
-
 =head1 AUTHOR
 
-Juan C. Müller, E<lt>jcmuller@gmail.com<gt>
+Juan C. Muller, E<lt>jcmuller@gmail.comE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2005 by Juan C. Müller
+Copyright 2005 by Juan C. Muller
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
