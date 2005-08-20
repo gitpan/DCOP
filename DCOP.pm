@@ -4,7 +4,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '0.031';
 
 sub new(){
 	my $proto = shift;
@@ -15,7 +15,7 @@ sub new(){
 	$self->{user}	  = $params{user}   if( $params{user} );
 	$self->{target}  = $params{target} if( $params{target} );
 	$self->{control} = $params{control} if( $params{control} );
-	$self->{dcop}	  = "dcop";
+	$self->{dcop}	  = "/usr/bin/dcop";
 	$self->{dcop} 	 .= " --user $self->{user} " if($self->{user});
 	$self->{dcop} 	 .= " $self->{target} " if($self->{target});
 	$self->{dcop} 	 .= " $self->{control} " if($self->{control});
