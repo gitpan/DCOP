@@ -3,6 +3,6 @@
 use Test::More tests => 3;
 
 BEGIN { use_ok('DCOP') };
-my $dcop = DCOP->new();
+my $dcop = DCOP->new( user => "$ENV{USER}" );
 ok( defined $dcop, "new() defined the object" );
-ok( $dcop->isa(DCOP), "   Object belongs to the class" );
+isa_ok( $dcop, 'DCOP' );
