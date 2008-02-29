@@ -4,7 +4,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = '0.036';
+our $VERSION = '0.037';
 
 sub new() {
 	my $proto  = shift;
