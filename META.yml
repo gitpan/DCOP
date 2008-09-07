@@ -1,11 +1,11 @@
 --- #YAML:1.0
 name:                DCOP
-version:             0.037
+version:             0.038
 abstract:            Perl extension to speak to the dcop server via system's DCOP client.
 license:             ~
 author:              
     - Juan C. Müller <jcmuller@gmail.com>
-generated_by:        ExtUtils::MakeMaker version 6.42
+generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
 meta-spec:
